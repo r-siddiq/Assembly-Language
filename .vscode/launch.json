@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug ASM (cppvsdbg, BuildTools)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "externalTerminal",
+      "stopAtEntry": false,
+      "preLaunchTask": "Build ASM (x86, Irvine) — ACTIVE FILE",
+      "symbolSearchPath": "${workspaceFolder}\\build"
+    }
+  ]
+}

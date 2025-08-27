@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build ASM (x86, Irvine) — ACTIVE FILE",
+      "type": "process",
+      "command": "${workspaceFolder}\\.vscode\\build_asm.bat",
+      "args": [
+        "${file}"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$msCompile"]
+    },
+    {
+      "label": "Run ASM — ACTIVE FILE",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "build\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "dependsOn": "Build ASM (x86, Irvine) — ACTIVE FILE"
+    },
+
+    {
+      "label": "Build ASM (x86, Irvine) — PICK FILE",
+      "type": "process",
+      "command": "${workspaceFolder}\\.vscode\\build_asm.bat",
+      "args": [
+        "${input:asmPath}"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$msCompile"]
+    },
+    {
+      "label": "Run ASM — PICK FILE",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "set \"ASM=${input:asmPath}\" && for %%F in (\"%ASM%\") do set \"BASE=%%~nF\" && build\\%BASE%.exe"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "dependsOn": "Build ASM (x86, Irvine) — PICK FILE"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "asmPath",
+      "type": "pickString",
+      "description": "Choose an .asm file to build/run",
+      "options": [
+        "${workspaceFolder}\\RahimSiddiq_CS118_Assignment2.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_Assignment3.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_Assignment4.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_MidermAssignment5.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_Assignment6.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_Assignment7.asm",
+        "${workspaceFolder}\\RahimSiddiq_CS118_Final_Assignment8.asm"
+      ]
+    }
+  ]
+}
