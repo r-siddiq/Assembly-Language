@@ -1,4 +1,4 @@
-TITLE Rahim Siddiq CS118 Assignment 2			(RahimSiddiq_CS118_Assignment2.asm)
+TITLE Rahim Siddiq SubtractInt					(SubtractInt.asm)
 
 ; Program description: This program subtracts three 16-bit integers and displays the values
 ; Author: Rahim Siddiq

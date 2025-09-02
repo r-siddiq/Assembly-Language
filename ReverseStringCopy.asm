@@ -1,4 +1,4 @@
-TITLE Rahim Siddiq CS118 Assignment 3			(RahimSiddiq_CS118_Assignment3.asm)
+TITLE Rahim Siddiq ReverseStringCopy			(ReverseStringCopy.asm)
 
 ; Program description: This program uses a loop function and indirect addressing to copy a string from source to target in reverse order.
 ; Author: Rahim Siddiq

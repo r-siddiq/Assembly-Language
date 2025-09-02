@@ -1,7 +1,7 @@
-TITLE Rahim Siddiq CS118 Midterm Assignment 5							(RahimSiddiq_CS118_MidermAssignment5.asm)
+TITLE Rahim Siddiq TempStatsValidation									(TempStatsValidation.asm)
 
 COMMENT !
-Program description: Midterm on Chapter 6. This program asks the user to input 5 temperatures between 0 and 100 (Invalid entries are
+Program description: This program asks the user to input 5 temperatures between 0 and 100 (Invalid entries are
 rejected, such as temperatures below 0 and above 100).
 (1) Calculates and displays average temperature.
 (2) Finds and displays the lowest temperature.

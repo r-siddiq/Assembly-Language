@@ -1,4 +1,4 @@
-TITLE Rahim Siddiq CS118 Assignment 7												(RahimSiddiq_CS118_Assignment7.asm)
+TITLE Rahim Siddiq ArrayNearMatch													(ArrayNearMatch.asm)
 
 COMMENT !
 Program description: Program finds similar elements in two seperate pairs of arrays with a procedure named CountNearMatches.

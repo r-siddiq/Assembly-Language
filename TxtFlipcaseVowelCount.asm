@@ -1,7 +1,7 @@
-TITLE Rahim Siddiq CS118 Final Assignment 8							(RahimSiddiq_CS118_FinalAssignment8.asm)
+TITLE Rahim Siddiq TxtFlipcaseVowelCount								(TxtFlipcaseVowelCount.asm)
 
 COMMENT !
-Program description: Final Exam Project. Assembly language program takes user input from a user and stores information in an array.
+Program description: Assembly language program takes user input from a user and stores information in an array.
 Program accomplishes the following
 (1) Counts and displays the number of words in the user input string
 (2) Flips the case of all alphabetical characters (upper/lower) (lower/upper)

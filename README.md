@@ -54,25 +54,25 @@ Expected files in `irvine/`: `Irvine32.inc`, `Irvine32.lib`, `Kernel32.lib`, `Us
 
 ## File Highlights (what each assignment demonstrates)
 
-- **Assignment 2 — Integer arithmetic & registers**  
+- **SubtractInt — Integer arithmetic & registers**  
   Subtracts/combines integer values, moves data between registers/memory, prints results via Irvine routines.
 
-- **Assignment 3 — Reverse copy (strings & addressing)**  
+- **ReverseStringCopy — Reverse copy (strings & addressing)**  
   Copies a string in **reverse order** using a counted loop and indirect addressing (index/pointer usage).
 
-- **Assignment 4 — Console I/O + control flow**  
+- **SumTwoInt — Console I/O + control flow**  
   Clears screen / positions cursor, prompts for **two integers**, computes their **sum**, repeats a few times.
 
-- **Midterm Assignment 5 — Arrays, validation, modular procs**  
+- **TempStatsValidation — Arrays, validation, modular procs**  
   Reads a fixed number of values with range validation; computes **average**, **min**, **max**, and counts values matching a predicate, split across procedures.
 
-- **Assignment 6 — Greatest Common Divisor**  
+- **EuclideanGCD — Greatest Common Divisor**  
   Reads two integers, validates input, computes **GCD** (Euclidean-style), and displays the result.
 
-- **Assignment 7 — Array comparison (near matches)**  
+- **ArrayNearMatch — Array comparison (near matches)**  
   Compares two arrays with a tolerance rule; demonstrates passing pointers/sizes and returning results in `EAX`.
 
-- **Final Assignment 8 — String analytics**  
+- **TxtFlipcaseVowelCount — String analytics**  
   For a user-provided string, counts **words**, **flips case** of all letters, and counts **vowels**, organized into separate procedures.
 
 > The programs use the standard 32-bit MASM pattern:  

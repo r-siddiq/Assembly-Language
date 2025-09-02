@@ -1,4 +1,4 @@
-TITLE Rahim Siddiq CS118 Assignment 4			(RahimSiddiq_CS118_Assignment4.asm)
+TITLE Rahim Siddiq SumTwoInt										(SumTwoInt.asm)
 
 COMMENT !
 Program description: This program clears the screen, locates the cursor near the middle of the screen, prompts the user for two 

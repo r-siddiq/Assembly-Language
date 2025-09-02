@@ -1,4 +1,4 @@
-TITLE Rahim Siddiq CS118 Assignment 6							(RahimSiddiq_CS118_Assignment6.asm)
+TITLE Rahim Siddiq EuclideanGCD											(EuclideanGCD.asm)
 
 COMMENT !
 Program description: Program takes two integer inputs from user and outputs the greatest common denominator (GCD)
